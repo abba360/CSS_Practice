@@ -1,0 +1,35 @@
+html, body{
+    background: grey;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --red: red;
+    --white: #fff;
+    --blue: #blue;
+    --flag-height: 150px; 
+}
+
+.french-flag{
+    display: flex;
+    margin: 2em auto;
+    height: var(--flag-height);
+    /* width: calc(var(--flag-height)* 3/2); */
+    background: black;
+}
+.stripe{
+    flex-grow: 1;
+}
+
+.red{
+    background: red;
+}
+
+.white{
+    background: white;
+}
+
+.blue{
+    background: blue;
+}

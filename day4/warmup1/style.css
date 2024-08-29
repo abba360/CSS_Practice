@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --square-bg: dodgerblue;
+    --square-lb-bg: yello;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.square:first-child{
+    background: red;
+}
+.square:nth-child(2){
+    background: blue;
+}
+.square:last-child{
+    background: yellow;
+}
+.square{
+    height: 1.6em;
+    width: 1.6em;
+    background: orange;
+    margin: 2em;
+    animation: rotate infinite 1s;
+    transform: rotate(45deg):
+}
+
+
+@keyframes rotate{
+    from{
+        transform: rotate(-45deg);
+    }
+    to{
+        transform: rotate(45deg);
+    }
+}

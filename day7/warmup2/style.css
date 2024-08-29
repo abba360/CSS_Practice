@@ -1,0 +1,38 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background: grey;
+}
+
+:root{
+    --green-stripe: green;
+    --white-stripe: #fff;
+    --flag-height: 200px;
+    --flag-width: calc(var(--flag-height)* 3/2);
+    
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 2em;
+}
+
+.nigerian-flag{
+    display: flex;
+    margin: 2em;
+    background: dodgerblue;
+    height: var(--flag-height);
+    width: var(---flag-width)
+}
+
+.stripe{
+    flex-grow: 1;
+}
+
+.green{
+    background: var(--green-stripe);
+}
+.white{
+    background: var(--white-stripe)
+}

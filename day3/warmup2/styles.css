@@ -1,0 +1,37 @@
+html, body{
+    margin:0;
+    padding: 0;
+
+}
+
+:root{
+    --square-bg: dodgerblue;
+    --square-lb-bg: lightblue;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.square{
+    height: 1.6em;
+    width: 1.6em;
+    background: blue;
+    margin: 10px;
+    animation: blink infinite 2s;
+}
+
+@keyframes blink{
+    from{
+        background: var(--square-lb-bg);
+        width: 2em
+    }
+    to{
+        background: var(--square-bg);
+        height: 1.8em;
+    }
+}

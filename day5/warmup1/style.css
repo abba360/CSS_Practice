@@ -1,0 +1,53 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --black: #282828;
+    --blue: #2892f9;
+    --red: #fb2f27;
+    --yellow: #fefd29;
+}
+.container{
+    display: flex;
+    margin: 24px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;    
+}
+.rings{
+    
+    display: flex;
+    margin: 24px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.black-ring{
+    background: black;
+    height: 25em;
+    width: 25em;
+    border-radius: 50%;
+}
+
+.blue-ring{
+    background: blue;
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+}
+
+.red-ring{
+    background: red;
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+}
+
+.yellow-ring{
+    background: yellow;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}

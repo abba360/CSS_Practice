@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --flag-height: 300px;
+}
+
+.container{
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 5/3);
+}
+
+.stripe{
+    flex-grow: 1;
+}
+
+.red{
+    background: red;
+}
+
+.yellow{
+    background: yellow;
+}
+.black{
+    background: black;
+}

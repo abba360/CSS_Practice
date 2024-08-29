@@ -1,0 +1,47 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    --square-bg: dodgerblue;
+    --square-lb-bg: lightblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.polygon{
+    height: 1.6em;
+    width: 1.6em;
+    background: var(--square-bg);
+    border-radius: 8px;
+    margin: 2em;
+    transform: rotate(90deg);
+    animation: rotate infinite 1s;
+}
+
+.polygon1{
+    background: tomato;
+}
+.polygon2{
+    background: dodgerblue;
+}
+.polygon3{
+    background: lightgrey;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+

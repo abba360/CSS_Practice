@@ -1,0 +1,54 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+.new-word:after{
+    content: "";
+    animation: pulse infinite 6s;
+    background: tomato;
+    padding: 8px;
+}
+@keyframes pulse{
+    0%{
+        content: "Gurasa";
+    }
+    10%{
+        content: "Jollof Rice";
+    }
+    20%{
+        content: "Masa";
+    }
+    30%{
+        content: "Rice and Stew";
+    }
+    40%{
+        content: "Pounded Yam";
+    }
+    50%{
+        content: "Akpu";
+    }
+    60%{
+        content: "Margi Special";
+    }
+    70%{
+        content: "Snacks";
+    }
+    80%{
+        content: "Danbu";
+    }
+    90%{
+        content: "Rameon";
+    }
+    100%{
+        content: "Tuwo";
+    }
+}
